@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container-img">
+      <!--Contenedor de formulario-->
+      <div class="contenedor">
+        <header id="titulo">Registrate</header>
+        <form action="#">
+          <div class="campo">
+            <span class="usuario"> <img src="/img/usuario.svg" alt="" /></span>
+            <input type="text" required placeholder="email" />
+          </div>
+          <div class="campo space">
+            <span class="lock-alt"
+              ><img src="./img/lock-alt.svg" alt=""
+            /></span>
+            <!--Mostrar contraseña-->
+            <input
+              type="password"
+              class="password"
+              required
+              placeholder="password"
+            />
+            <span class="show">SHOW</span>
+          </div>
+
+          <div class="pass">
+            <a href="#">Has olvidado tu contraseña?</a>
+          </div>
+
+          <div class="campo">
+            <input type="submit" value="Iniciar Seción" />
+          </div>
+
+          <div class="login">or login with</div>
+          <div class="link">
+            <div class="facebook">
+              <i class="icons facebook">
+                <img src="./img/círculo de facebook.svg" alt="" />
+              </i>
+            </div>
+
+            <div class="google">
+              <i class="icons google">
+                <img src="./img/Instagram-alt.svg" alt="" />
+              </i>
+            </div>
+          </div>
+
+          <div class="signup">
+            No tienes Cuenta?
+            <a href="#">signup now</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
